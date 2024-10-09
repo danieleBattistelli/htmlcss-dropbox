@@ -11,14 +11,14 @@ img {
 
 body {
     /*debug*/
-    /* background-image: url(/img/img/dropbox-small.jpg); */
+    background-image: url(/img/img/dropbox-small.jpg);
     background-size: cover;
 }
 
 .header {
-    height: 80px;
+    height: 70px;
     /*debug*/
-    background-color: rgba(0, 255, 255, 0.639);
+    /* background-color: rgba(0, 255, 255, 0.639); */
     border: 2px solid black;
 }
 
@@ -26,7 +26,7 @@ body {
     /*debug*/
     min-height: 69vh;
     border: 2px solid black;
-    /* background-color: rgb(255, 240, 255); */
+    background-color: #b4d0e6;
 }
 
 .title {
@@ -36,7 +36,11 @@ body {
 }
 
 .t-hero{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    line-height: 2em;
     margin-top: 50px;
+    padding-left: 40px;
     /*debug*/
     min-height: 22vh;
 }
@@ -90,6 +94,11 @@ body {
     background-color: rgba(0, 221, 255, 0.4);
 }
 
+.p-hero{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
 /*UTILITIES*/
 /*container*/
 .container {
@@ -108,7 +117,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    position: relative;
 }
 
 .col-80 {
@@ -176,4 +185,29 @@ body {
     background-color: rgba(0, 255, 64, 0.416);
     min-height: 20vh;
     border: 2px solid black;
+}
+
+.-center{
+    text-align: center;
+}
+
+.btn{  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  
+}
+
+.-blue{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 0.4em 0.8em;
+    margin-left: 20px 20px;
+    background-color: #7289DA;
+    color: white;
+}
+
+#turn-down{
+    font-size: 100px;
+    padding-left: 30px;
 }
