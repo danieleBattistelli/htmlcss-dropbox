@@ -1,0 +1,91 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    /*debug*/
+    background-image:url(/img/img/dropbox-small.jpg) ;
+    background-size: cover;
+}
+
+.header{ 
+    height: 80px;
+    /*debug*/
+    background-color: rgba(0, 255, 255, 0.397); 
+    border: 2px solid black;
+}
+
+.hero{    
+    /*debug*/
+    min-height: 69vh;
+    /* border: 2px solid black; */
+    /* background-color: rgba(240, 248, 255, 0.411); */
+}
+
+.title{
+    margin-top: 50px;
+    /*debug*/
+    border: 2px solid black;
+    min-height: 20vh;
+    background-color:rgba(255, 0, 0, 0.4);
+}
+
+
+
+
+
+/*UTILITIES*/
+/*container*/
+.container{
+margin: 0 auto;
+width: 80%;
+max-width: 1100px;
+}
+
+.small-container{
+    margin: 0 auto;
+    width: 60%;
+    max-width: 900px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-80{
+    width: 80%;
+    /*debug*/
+    background-color: rgba(0, 0, 255, 0.416);
+    min-height: 20vh;
+}
+
+.col-70{
+    width: 70%;
+     /*debug*/
+     background-color: rgba(0, 0, 255, 0.416);
+     min-height: 50vh;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-20{
+    width: 20%;
+}
+
+.col-30{
+    width: 30%;
+    background-color: rgba(0, 255, 64, 0.416);
+     min-height: 50vh;
+}
+
