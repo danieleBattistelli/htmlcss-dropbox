@@ -11,48 +11,71 @@ img {
 
 body {
     /*debug*/
-    background-image: url(/img/img/dropbox-small.jpg);
+    /* background-image: url(/img/dropbox-small.jpg); */
     background-size: cover;
+    font-family: sans-serif;
 }
 
 .header {
-    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center; 
+    height: 40px;
+
     /*debug*/
     /* background-color: rgba(0, 255, 255, 0.639); */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
+.header ul {
+    padding: 25px;
+    list-style-type: none;
+    display: flex;
+}
+
+.logo{
+    max-width: 90%;
+}
+a {
+    font-size: 1em;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#inizia{
+    margin-top: -30px;
+}
 .hero {
     /*debug*/
-    min-height: 69vh;
-    border: 2px solid black;
+    /* min-height: 69vh;
+    border: 2px solid black; */
     background-color: #b4d0e6;
 }
 
 .title {
     /*debug*/
     border: 2px solid black;
-    background-color: rgba(255, 0, 0, 0.4);
+    /* background-color: rgba(255, 0, 0, 0.4); */
+
 }
 
-.t-hero{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.t-hero {
     font-size: 3em;
     line-height: 2em;
     margin-top: 50px;
     padding-left: 40px;
     /*debug*/
-    min-height: 22vh;
+    /* min-height: 22vh; */
 }
 
-.t-business{
+.t-business {
     /*debug*/
     margin-top: 20px;
     margin-bottom: 10px;
     min-height: 21vh;
 }
 
-.t-white{
+.t-white {
     /*debug*/
     margin-top: 90px;
     margin-bottom: 30px;
@@ -62,29 +85,29 @@ body {
 .business {
     /*debug*/
     min-height: 145vh;
-    border: 2px solid black;
-    background-color: rgba(240, 248, 255, 0.411);
+    /* border: 2px solid black;
+    background-color: rgba(240, 248, 255, 0.411); */
 }
 
-.s-white{
+.s-white {
     /*debug*/
     min-height: 218vh;
     border: 2px solid black;
     /* background-color: rgba(240, 255, 245, 0.411); */
 }
 
-.section-up{
+.section-up {
     margin-top: 30px;
 }
 
-.footer{
+.footer {
     /*debug*/
     min-height: 50vh;
     border: 2px solid black;
     background-color: rgba(0, 221, 255, 0.4);
 }
 
-.footer-end{
+.footer-end {
     margin-top: 50px;
     margin-left: 20px;
     /*debug*/
@@ -94,7 +117,7 @@ body {
     background-color: rgba(0, 221, 255, 0.4);
 }
 
-.p-hero{
+.p-hero {
     padding-top: 40px;
     padding-left: 10px;
 }
@@ -120,6 +143,10 @@ body {
     position: relative;
 }
 
+.mar-20 {
+    margin-bottom: 20px;
+}
+
 .col-80 {
     width: 80%;
     /*debug*/
@@ -139,17 +166,17 @@ body {
 .col-60 {
     width: 60%;
     /*debug*/
-    background-color: rgba(0, 255, 64, 0.416);
+    /* background-color: rgba(0, 255, 64, 0.416);
     min-height: 55vh;
-    border: 2px solid black;
+    border: 2px solid black; */
 }
 
 .col-40 {
     width: 40%;
     /*debug*/
-    background-color: rgba(0, 0, 255, 0.416);
+    /* background-color: rgba(0, 0, 255, 0.416);
     min-height: 50vh;
-    border: 2px solid black;
+    border: 2px solid black; */
 }
 
 .col-business {
@@ -157,7 +184,6 @@ body {
     /*debug*/
     background-color: rgba(137, 43, 226, 0.395);
     min-height: 90vh;
-    gap: 20px;
     border: 2px solid black;
 }
 
@@ -170,7 +196,7 @@ body {
     border: 2px solid black;
 }
 
-.col-footer{
+.col-footer {
     width: calc((100% - 40px) / 5);
     margin-top: 50px;
     /*debug*/
@@ -179,6 +205,7 @@ body {
     gap: 20px;
     border: 2px solid black;
 }
+
 .col-30 {
     width: 30%;
     /*debug*/
@@ -187,27 +214,28 @@ body {
     border: 2px solid black;
 }
 
-.-center{
+.-center {
     text-align: center;
 }
 
-.btn{  
+.btn {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  
+
 }
 
-.-blue{
-    margin-top: 30px;
-    margin-left: 30px;
+.-blue {
     padding: 0.4em 0.8em;
-    margin-left: 20px 20px;
     background-color: #7289DA;
     color: white;
 }
 
-#turn-down{
+.b-hero{
+    margin: 20px 20px;
+}
+
+#turn-down {
     font-size: 100px;
     padding-left: 30px;
 }
