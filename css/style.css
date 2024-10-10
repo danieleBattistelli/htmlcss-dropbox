@@ -11,7 +11,7 @@ img {
 
 body {
     /*debug*/
-    /* background-image: url(/img/dropbox-small.jpg); */
+    /* background-image: url(/img/dropbox-small.jpg);  */
     background-size: cover;
     font-family: sans-serif;
 }
@@ -20,13 +20,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    height: 40px;
+    min-height: 50px;
     /*debug*/
     /* background-color: rgba(0, 255, 255, 0.639); */
     /* border: 2px solid black; */
 }
 
-.header ul {
+ul {
     padding: 25px;
     list-style-type: none;
     display: flex;
@@ -53,27 +53,44 @@ a {
     background-color: #b4d0e6;
 }
 
-.title {
+.t-hero {
     font-size: 3em;
     line-height: 2em;
-    /*debug*/
-    /* border: 2px solid black; */
-    /* background-color: rgba(255, 0, 0, 0.4); */
-
-}
-
-.t-hero {
     margin-top: 50px;
     padding-left: 40px;
     /*debug*/
     /* min-height: 22vh; */
 }
 
-.t-business {
+.t-plans {
+    font-size: 1.5em;
     /*debug*/
-    margin-top: 20px;
-    margin-bottom: 10px;
-    min-height: 21vh;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    min-height: 5vh;
+    /*debug*/
+    /* border: 2px solid black; */
+
+}
+
+.title-card {
+    font-size: 1em;
+}
+
+#radio {
+    font-size: 1em;
+    margin-bottom: 30px;
+
+}
+
+.up {
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.down {
+    padding-left: 50px;
+    padding-top: 40px;
 }
 
 .t-white {
@@ -83,17 +100,25 @@ a {
     min-height: 15vh;
 }
 
-.business {
+.plans {
     /*debug*/
     min-height: 145vh;
     /* border: 2px solid black;
     background-color: rgba(240, 248, 255, 0.411); */
 }
 
+.a-plans {
+    text-decoration: underline;
+}
+
+#teams-block{
+    border: 2px solid grey;
+}
+
 .s-white {
     /*debug*/
     min-height: 218vh;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* background-color: rgba(240, 255, 245, 0.411); */
 }
 
@@ -105,7 +130,7 @@ a {
     /*debug*/
     min-height: 50vh;
     border: 2px solid black;
-    background-color: rgba(0, 221, 255, 0.4);
+    /* background-color: rgba(0, 221, 255, 0.4); */
 }
 
 .footer-end {
@@ -115,7 +140,7 @@ a {
     max-width: 10vw;
     min-height: 15vh;
     border: 2px solid black;
-    background-color: rgba(0, 221, 255, 0.4);
+    /* background-color: rgba(0, 221, 255, 0.4); */
 }
 
 .p-hero {
@@ -125,8 +150,24 @@ a {
     line-height: 1.5em;
 }
 
+.p-plans {
+    font-size: 0.7em;
+    line-height: 1.5em;
+}
+
+#team {
+    position: relative;
+}
+
+#btn-plans {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
 /*UTILITIES*/
 /*container*/
+
 .container {
     margin: 0 auto;
     width: 80%;
@@ -144,10 +185,6 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
-}
-
-.mar-20 {
-    margin-bottom: 20px;
 }
 
 .col-80 {
@@ -169,25 +206,25 @@ a {
 .col-60 {
     width: 60%;
     /*debug*/
-    /* background-color: rgba(0, 255, 64, 0.416);
+    /* background-color: rgba(0, 255, 64, 0.416); */
     min-height: 55vh;
-    border: 2px solid black; */
+    border: 2px solid black;
 }
 
 .col-40 {
     width: 40%;
     /*debug*/
-    /* background-color: rgba(0, 0, 255, 0.416);
+    /* background-color: rgba(0, 0, 255, 0.416); */
     min-height: 50vh;
-    border: 2px solid black; */
+    border: 2px solid black;
 }
 
-.col-business {
+.col-plans {
     width: calc((100% - 40px) / 3);
-    /*debug*/
-    background-color: rgba(137, 43, 226, 0.395);
     min-height: 90vh;
-    border: 2px solid black;
+    /*debug*/
+    /* background-color: rgba(137, 43, 226, 0.395); */
+    border: 2px solid grey;
 }
 
 .col-white {
@@ -217,10 +254,6 @@ a {
     border: 2px solid black; */
 }
 
-.-center {
-    text-align: center;
-}
-
 .btn {
     text-align: center;
     text-decoration: none;
@@ -229,7 +262,7 @@ a {
 }
 
 .-blue {
-    padding: 0.4em 0.8em;
+    padding: 0.4em 0.4em;
     background-color: #7289DA;
     color: white;
 }
@@ -242,4 +275,12 @@ a {
     font-size: 50px;
     padding-left: 30px;
     margin-top: 150px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p-left-30 {
+    padding-left: 30px;
 }
