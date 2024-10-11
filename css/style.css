@@ -48,7 +48,7 @@ a {
 
 .hero {
     /*debug*/
-    min-height: 69vh;
+    /* min-height: 69vh; */
     /* border: 2px solid black; */
     background-color: #b4d0e6;
 }
@@ -65,7 +65,7 @@ a {
 .t-plans {
     font-size: 1.5em;
     /*debug*/
-    margin-top: 60px;
+    margin-top: 150px;
     margin-bottom: 50px;
     min-height: 5vh;
     /*debug*/
@@ -114,7 +114,7 @@ a {
     text-decoration: underline;
 }
 
-#teams-block{
+#teams-block {
     border: 2px solid grey;
 }
 
@@ -133,11 +133,11 @@ a {
     /*debug*/
     min-height: 50vh;
     border: 2px solid white;
-    background-color:black;
+    background-color: black;
     color: white;
 }
 
-.a-footer{
+.a-footer {
     color: inherit;
     margin-left: 0px;
 }
@@ -276,7 +276,7 @@ a {
     color: white;
 }
 
-.-white{
+.-white {
     padding: 0.4em 0.4em;
     background-color: white;
     color: black;
@@ -290,7 +290,7 @@ a {
 #turn-down {
     font-size: 50px;
     padding-left: 30px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .text-center {
@@ -300,10 +300,15 @@ a {
 .p-left-30 {
     padding-left: 30px;
 }
-.p-top-30{
+
+.p-top-30 {
     padding-top: 30px;
 }
 
 .p-left-10 {
     padding: 10px;
+}
+
+.m-botton-150 {
+    margin-bottom: -200px;
 }
